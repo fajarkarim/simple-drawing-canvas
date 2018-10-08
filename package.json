@@ -1,0 +1,30 @@
+{
+  "name": "simple-drawing-canvas",
+  "version": "1.0.0",
+  "description": "simple react component to draw polygon line and eraser.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fajarkarim/simple-drawing-canvas.git"
+  },
+  "keywords": [
+    "react",
+    "drawing",
+    "canvas",
+    "react",
+    "canvas"
+  ],
+  "author": "Fajar Abdul Karim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fajarkarim/simple-drawing-canvas/issues"
+  },
+  "homepage": "https://github.com/fajarkarim/simple-drawing-canvas#readme"
+}
